@@ -49,6 +49,18 @@ Subscribe MQTT node of SCD30 Sensor data upload, FIT0563 Water Pump control, and
 System block diagram:  
 ![System block diagram](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/detail%20block%20diagram.png)
 
+### Challenges
+
+### Prototype Learnings
+
+### Next Steps & Takeaways
+
+### Project Links
+
+[Node-RED instance Backend](http://172.191.97.168:1880/#flow/tab_greenhouse)
+[Node-RED instance dashboard](http://172.191.97.168:1880/ui/#!/1?socketid=zouAJPODBevSTZA9AAA9)
+[Final PCBA](https://upenn-eselabs.365.altium.com/designs/E5187DEE-6EC9-4D4B-8E06-A8892717EEDD#design)
+
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
