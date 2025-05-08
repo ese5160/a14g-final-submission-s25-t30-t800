@@ -61,7 +61,7 @@ Ensuring full-duplex MQTT communication between Node-RED and the MCU was challen
 ### Prototype Learnings
 Building this system taught me the importance of modular design in embedded systems. I learned how to debug real-time I2C communication, manage FreeRTOS task timing, and design hardware-software co-optimized systems.  
 
-If I were to rebuild this system, I would:  
+If I could to rebuild this system, I would:  
 Implement a unified sensor abstraction layer in firmware.  
 Design a backup power regulator.  
 Improve the overall system integrity.   
