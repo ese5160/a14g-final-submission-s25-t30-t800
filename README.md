@@ -22,28 +22,18 @@ Our device uses Wi-Fi (via the SAMW25 MCU) to connect to the cloud through MQTT.
 This system integrates the following components:  
 
 **Sensors:**  
-
 SHT31: for temperature  
-
 SCD30: for CO₂ concentration  and humidity  
 
-
 **Actuators:**    
-
 IRLZ34N MOSFET: controls water valve for irrigation  
-
 On-board LED: for status/debug indication  
-
 FIT0563 Water Pump  
 
 **Connectivity:**    
-
 SAMW25 MCU with integrated Wi-Fi  
-
 MQTT protocol for bidirectional communication  
-
 Node-RED dashboard for UI  
-
 Subscribe MQTT node of SCD30 Sensor data upload, FIT0563 Water Pump control, and CLI command  
 
 **System block diagram:**    
@@ -65,10 +55,19 @@ If I could to rebuild this system, I would:
 Implement a unified sensor abstraction layer in firmware.  
 Design a backup power regulator.  
 Improve the overall system integrity.   
+
 ### Next Steps & Takeaways
+**Improvements Planned:**  
+Add cloud-based data logging (e.g., via InfluxDB or Firebase)  
+Add mobile push notifications for critical alerts (e.g., low soil moisture)  
+
+**Course Takeaways:**  
+ESE5160 taught me how to take a complex embedded idea from concept to prototype. I now have hands-on experience in:  
+Real-time firmware development using FreeRTOS  
+Cloud-MCU communication using MQTT  
+Integrated debugging across hardware, firmware, and web UI  
 
 ### Project Links
-
 [Node-RED instance Backend](http://172.191.97.168:1880/#flow/tab_greenhouse)  
 [Node-RED instance dashboard](http://172.191.97.168:1880/ui/#!/1?socketid=zouAJPODBevSTZA9AAA9)  
 [Final PCBA](https://upenn-eselabs.365.altium.com/designs/E5187DEE-6EC9-4D4B-8E06-A8892717EEDD#design)  
