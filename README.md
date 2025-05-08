@@ -8,7 +8,7 @@
     * Description of test hardware: (development boards, sensors, actuators, laptop + OS, etc), SAMW25 MCU, SCD30 CO2 Senor.
 
 ## 1. Video Presentation
-
+https://youtu.be/FQzuduFb5-4
 
 ## 2. Project Summary
 ### Device Description
