@@ -74,43 +74,36 @@ Integrated debugging across hardware, firmware, and web UI
 
 ## 3. Hardware & Software Requirements
 ### Hardware Requirements Specification Review
-#### HRS 01
-The system shall use a SAMW25 microcontroller with integrated Wi-Fi for real-time data transmission and remote monitoring.  
+#### HRS 01 – The system shall use a SAMW25 microcontroller with integrated Wi-Fi for real-time data transmission and remote monitoring.  
 
 Review: We have implemented the use of WiFi for monitoring and real-time data transfer, the exact effect of which we have presented in the video presentation  
 
-#### HRS 02
-The system shall be powered by a single Lithium Ion cylindrical cell to enable portable and sustainable operations.  
+#### HRS 02 – The system shall be powered by a single Lithium Ion cylindrical cell to enable portable and sustainable operations.  
 Review: We realized the use of lithium battery power supply, the lithium battery will be inserted into the J1 port to realize the batter power supply mode
  
-#### HRS 03
-The system shall include CO₂, temperature, and humidity sensors in each crop zone. These sensors shall communicate with the microcontroller via I2C and operate within manufacturer-specified accuracy and range limits.  
+#### HRS 03 – The system shall include CO₂, temperature, and humidity sensors in each crop zone. These sensors shall communicate with the microcontroller via I2C and operate within manufacturer-specified accuracy and range limits.  
 
 Review: In the specific project we did not divide the crop area in detail, we measured CO₂, Temperature and Humidity in the same area and completed the I2C communication through the sensors and the MCU, for CO2 and Humidity we did not verify the accuracy but for temperature we measured the ambient temperature using a thermal camera because SCD30 sensor is expensive and its accuracy is very high.  
 
-Figure1 :![Weixin Image_20250507223756](https://github.com/user-attachments/assets/bf208863-6a36-4cf0-92e9-dee1972882a7)
-figure1 is a physical drawing of the scd30.  
+:![Weixin Image_20250507223756](https://github.com/user-attachments/assets/bf208863-6a36-4cf0-92e9-dee1972882a7)
+physical drawing of the scd30.  
 
 Figure2 :![5c267925bed72bfbf8959ea68636391](https://github.com/user-attachments/assets/750a51dd-5ecc-4a02-a801-a39b4fa5c399)  
-figure2 we not only use thermal camera to measure PCB but also use it to measure the ambient temperature to verify the accuracy of the sensor.  
+we not only use thermal camera to measure PCB but also use it to measure the ambient temperature to verify the accuracy of the sensor.  
 
-#### HRS 04
-Motors for window adjustment and electromagnetic valves for irrigation shall be incorporated. They shall be physically robust enough to operate in typical greenhouse conditions (temperature, humidity, and dust).   
+#### HRS 04 – Motors for window adjustment and electromagnetic valves for irrigation shall be incorporated. They shall be physically robust enough to operate in typical greenhouse conditions (temperature, humidity, and dust).   
 
 Review: Our final actuator does not use a motor, only a solenoid valve, which we control to switch on and off according to the ambient humidity level.  
 
-#### HRS 05
-The I2C bus shall be used for sensor data collection to reduce wiring complexity and ensure efficient data transfer rates suitable for real-time control.  
+#### HRS 05 – The I2C bus shall be used for sensor data collection to reduce wiring complexity and ensure efficient data transfer rates suitable for real-time control.  
 
 Review: We implemented I2C communication between the SAMW25 microcontroller and the SCD30 environmental sensor. This bus-based configuration significantly reduced wiring complexity by allowing sensor to share the same clock and data lines (SCL and SDA), simplifying the PCB layout and physical integration. The I2C interface reliably supports the data rates required for real-time environmental monitoring (CO₂, temperature, humidity), though the actual sensor polling intervals were adjusted according to power management priorities and application needs.
 
-#### HRS 06
-The motors and valves should be mounted on a stable overhead track to facilitate precise and targeted irrigation without disturbing neighboring crop zones.   
+#### HRS 06 – The motors and valves should be mounted on a stable overhead track to facilitate precise and targeted irrigation without disturbing neighboring crop zones.   
 
 Review: Instead of using overhead tracks, we ended up laser engraving a separate space directly to simulate a greenhouse environment.   
 
-#### HRS 07
-The system shall not require an external power source under normal operating conditions, relying solely on the Li-Ion battery.  
+#### HRS 07 – The system shall not require an external power source under normal operating conditions, relying solely on the Li-Ion battery.  
 
 Review: We have not completed this part of the content, the buck circuit because of the manufacturer's reasons we, V_Buck maximum only 2.1V, so we can only use an external power source to provide 3.3V to the PCBA, Boost circuit because of the design reasons, we built-in capacitor size is not enough, the empty-load is able to output 6.6V, but the output voltage is only 6.6V under load conditions. 5.6V under load, it can't load the actuator properly.
 
