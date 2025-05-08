@@ -46,17 +46,17 @@ Node-RED dashboard for UI
 
 Subscribe MQTT node of SCD30 Sensor data upload, FIT0563 Water Pump control, and CLI command  
 
-System block diagram:  
+**System block diagram:**    
 ![System block diagram](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/detail%20block%20diagram.png)
 
 ### Challenges
-Firmware:  
+**Firmware:**    
 Integrating FreeRTOS with I2C driver framework required careful task synchronization using mutexes and callback interrupts to avoid sensor data collisions.  
 
-Hardware:  
+**Hardware:**    
 Both the Buck and Boost converter on the PCBA cannot output correct voltage. We use the benchtop DC power supply instead to power our system.  
 
-Integration:  
+**Integration:**    
 Ensuring full-duplex MQTT communication between Node-RED and the MCU was challenging—debugging required careful topic structuring and state management.  
 ### Prototype Learnings
 
