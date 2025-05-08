@@ -128,37 +128,37 @@ Review: We have implemented the use of WIFI for software updates!
 
 ## 4. Project Photos & Screenshots
 **Final project:**    
-![Final project](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/finalproject.jpg)
+![Final project](images/finalproject.jpg)
 
 **PCBA top view:**    
-![PCBA top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb_top.jfif)
+![PCBA top view](images/pcb_top.jfif)
 
 **PCBA bottom view:**    
-![PCBA bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb_button.jfif)
+![PCBA bottom view](pcb_button.jfif)
 
 **Thermal camera image:**    
-![Thermal camera image](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/thermal.jfif)
+![Thermal camera image](images/thermal.jfif)
 
 **2D Board design top view:**    
-![2D Board design top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb2d_front.png)
+![2D Board design top view](images/pcb2d_front.png)
 
 **2D Board design bottom view:**    
-![2D Board design bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb2d_back.png)
+![2D Board design bottom view](images/pcb2d_back.png)
 
 **3D Board design top view:**    
-![3D Board design top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb3d_front.png)
+![3D Board design top view](images/pcb3d_front.png)
 
 **3D Board design bottom view:**    
-![3D Board design bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb3d_back.png)
+![3D Board design bottom view](images/pcb3d_back.png)
 
 **Node-RED dashboard:**    
-![Node-RED dashboard](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/nodered_dashold.png)
+![Node-RED dashboard](images/nodered_dashold.png)
 
 **Node-RED backend:**    
-![Node-RED backend](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/nodered_backend.png)
+![Node-RED backend](images/nodered_backend.png)
 
 **System block diagram:**    
-![System block diagram](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/detail%20block%20diagram.png)
+![System block diagram](images/detail%20block%20diagram.png)
 
 
 ## Codebase
