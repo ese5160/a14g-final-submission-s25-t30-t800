@@ -114,12 +114,22 @@ The system shall not require an external power source under normal operating con
 
 Review: We have not completed this part of the content, the buck circuit because of the manufacturer's reasons we, V_Buck maximum only 2.1V, so we can only use an external power source to provide 3.3V to the PCBA, Boost circuit because of the design reasons, we built-in capacitor size is not enough, the empty-load is able to output 6.6V, but the output voltage is only 6.6V under load conditions. 5.6V under load, it can't load the actuator properly.
 
+#### SRS 01 – Environmental Monitoring: Each sensor module shall measure the concentration of CO2, ambient temperature, and humidity within its designated zone. Measurements of CO2 and temperature shall be taken every 30 seconds +/- 5 seconds; humidity shall be measured every 60 seconds +/- 10 seconds.  
+Review: Our measurement speed is much faster than the original design, achieving millisecond measurement and transmission!  
+#### SRS 02 – Actuator Control: Based on sensor inputs, the system shall control actuators to adjust environmental conditions. If CO2 levels exceed pre-defined thresholds appropriate for the crops in any zone, ventilation windows shall be opened automatically within 5 seconds of detection. If humidity drops below the set threshold, irrigation shall be activated within 10 seconds.  
+Review: Our final result was to achieve an actuator response within 1 second!  
+#### SRS 03 – Remote Data Access: The system shall provide real-time environmental data to users via a GUI accessible through standard web browsers. The GUI shall update sensor readings every minute.  
+Review:Due to hardware, we had a conflict between tasks that prevented us from displaying the measurement data in real time in the browser access interface. However, we designed the user interface and used a computer to display the data.  
+#### SRS 04 – System Configuration and Alerts: Users shall be able to configure threshold values for CO2, temperature, and humidity for each zone through the GUI. The system shall send alerts to the user's registered email or mobile device when any threshold is breached.  
+Review: We set up alerts but did not implement sending alerts to email and mobile devices  
+#### SRS 05 – Energy Management: The system shall monitor its battery status and notify users when the battery level falls below 20%. It should also enter a low-power mode if no user interaction occurs within a 24-hour period, while maintaining minimum monitoring functionality.  
+Review: This part was not implemented due to manufacturing issues with our power supply system  
 
+#### SRS 06 – Log Data: The system shall log all sensor data with timestamps in a local database, accessible to the user for download and analysis. The data shall be stored for at least one year before archival.
+Review: We have implemented the display and saving of the data, the user can download the data, but the historical data will be lost with each update
 
-
-
-
-
+#### SRS 07 – Software Updates: The device shall be capable of receiving firmware updates over-the-air via Wi-Fi, without requiring physical access to the hardware.
+Review: We have implemented the use of WIFI for software updates!
 
 
 
