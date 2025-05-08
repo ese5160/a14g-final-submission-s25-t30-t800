@@ -21,7 +21,7 @@ Our device uses Wi-Fi (via the SAMW25 MCU) to connect to the cloud through MQTT.
 ### Device Functionality
 This system integrates the following components:  
 
-Sensors:  
+** Sensors: **
 
 SHT31: for temperature  
 
