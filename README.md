@@ -16,6 +16,38 @@
 ## 4. Project Photos & Screenshots
 Final project:  
 ![Final project](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/finalproject.jpg)
+
+PCBA top view:  
+![PCBA top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb_top.jfif)
+
+Final project:  
+![Final project]()
+
+Final project:  
+![Final project]()
+
+Final project:  
+![Final project]()
+
+Final project:  
+![Final project]()
+
+Final project:  
+![Final project]()
+
+Final project:  
+![Final project]()
+
+Final project:  
+![Final project]()
+
+Final project:  
+![Final project]()
+
+Final project:  
+![Final project]()
+
+
 ## Codebase
 
 [Link to final embedded C firmware codebases](https://github.com/ese5160/final-project-t30-t800)  
