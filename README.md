@@ -20,32 +20,32 @@ Final project:
 PCBA top view:  
 ![PCBA top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb_top.jfif)
 
-Final project:  
-![Final project]()
+PCBA bottom view:  
+![PCBA bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb_button.jfif)
 
-Final project:  
-![Final project]()
+Thermal camera image:  
+![Thermal camera image](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/thermal.jfif)
 
-Final project:  
-![Final project]()
+2D Board design top view:  
+![2D Board design top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb2d_front.png)
 
-Final project:  
-![Final project]()
+2D Board design bottom view:  
+![2D Board design bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb2d_back.png)
 
-Final project:  
-![Final project]()
+3D Board design top view:  
+![3D Board design top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb3d_front.png)
 
-Final project:  
-![Final project]()
+3D Board design bottom view:  
+![3D Board design bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb3d_back.png)
 
-Final project:  
-![Final project]()
+Node-RED dashboard:  
+![Node-RED dashboard](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/nodered_dashold.png)
 
-Final project:  
-![Final project]()
+Node-RED backend:  
+![Node-RED backend](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/nodered_backend.png)
 
-Final project:  
-![Final project]()
+System block diagram:  
+![System block diagram](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/detail%20block%20diagram.png)
 
 
 ## Codebase
