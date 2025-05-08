@@ -14,7 +14,8 @@
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
-
+Final project:  
+![Final project](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/finalproject.jpg)
 ## Codebase
 
 [Link to final embedded C firmware codebases](https://github.com/ese5160/final-project-t30-t800)  
