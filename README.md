@@ -17,7 +17,7 @@
 
 ## Codebase
 
-[link to final embedded C firmware codebases](https://github.com/ese5160/final-project-t30-t800)
-[link to Node-RED dashboard code](https://github.com/ese5160/final-project-t30-t800/tree/main/Node-RED)
+[Link to final embedded C firmware codebases](https://github.com/ese5160/final-project-t30-t800)  
+[Link to Node-RED dashboard code](https://github.com/ese5160/final-project-t30-t800/tree/main/Node-RED)
 
 
