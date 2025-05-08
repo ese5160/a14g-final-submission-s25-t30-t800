@@ -8,7 +8,7 @@
     * Description of test hardware: (development boards, sensors, actuators, laptop + OS, etc), SAMW25 MCU, SCD30 CO2 Senor.
 
 ## 1. Video Presentation
-https://youtu.be/FQzuduFb5-4
+[Demo Video](https://youtu.be/FQzuduFb5-4)
 
 ## 2. Project Summary
 ### Device Description
@@ -45,6 +45,8 @@ MQTT protocol for bidirectional communication
 Node-RED dashboard for UI  
 
 Subscribe MQTT node of SCD30 Sensor data upload, FIT0563 Water Pump control, and CLI command  
+
+![System block diagram](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/detail%20block%20diagram.png)
 
 ## 3. Hardware & Software Requirements
 
