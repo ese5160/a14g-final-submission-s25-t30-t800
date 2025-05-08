@@ -18,6 +18,34 @@ Inspired by the challenges of sustainable agriculture and urban farming, this pr
 
 Our device uses Wi-Fi (via the SAMW25 MCU) to connect to the cloud through MQTT. This enables real-time remote monitoring and control from a Node-RED dashboard, allowing users to view live sensor data and toggle actuators such as LEDs and water pumps over the internet.  
 
+### Device Functionality
+This system integrates the following components:  
+
+Sensors:  
+
+SHT31: for temperature  
+
+SCD30: for CO₂ concentration  and humidity  
+
+
+Actuators:  
+
+IRLZ34N MOSFET: controls water valve for irrigation  
+
+On-board LED: for status/debug indication  
+
+FIT0563 Water Pump  
+
+Connectivity:  
+
+SAMW25 MCU with integrated Wi-Fi  
+
+MQTT protocol for bidirectional communication  
+
+Node-RED dashboard for UI  
+
+Subscribe MQTT node of SCD30 Sensor data upload, FIT0563 Water Pump control, and CLI command  
+
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
