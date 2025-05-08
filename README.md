@@ -8,6 +8,13 @@
     * Description of test hardware: (development boards, sensors, actuators, laptop + OS, etc), SAMW25 MCU, SCD30 CO2 Senor.
 
 ## 1. Video Presentation
+# Device Description
+The Smart Greenhouse System is an IoT-enabled environmental control platform that monitors and regulates temperature, humidity, CO₂ levels, and soil moisture to optimize plant growth. It automates irrigation based on real-time sensor data and remote cloud inputs.  
+
+Inspired by the challenges of sustainable agriculture and urban farming, this project aims to solve the problem of manual greenhouse management by introducing autonomous, data-driven decision-making to reduce human effort and improve crop health.  
+
+Our device uses Wi-Fi (via the SAMW25 MCU) to connect to the cloud through MQTT. This enables real-time remote monitoring and control from a Node-RED dashboard, allowing users to view live sensor data and toggle actuators such as LEDs and water pumps over the internet.  
+
 
 ## 2. Project Summary
 
