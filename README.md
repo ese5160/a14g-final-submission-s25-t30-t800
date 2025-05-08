@@ -21,14 +21,14 @@ Our device uses Wi-Fi (via the SAMW25 MCU) to connect to the cloud through MQTT.
 ### Device Functionality
 This system integrates the following components:  
 
-** Sensors: **
+**Sensors:**  
 
 SHT31: for temperature  
 
 SCD30: for CO₂ concentration  and humidity  
 
 
-Actuators:  
+**Actuators:**    
 
 IRLZ34N MOSFET: controls water valve for irrigation  
 
@@ -36,7 +36,7 @@ On-board LED: for status/debug indication
 
 FIT0563 Water Pump  
 
-Connectivity:  
+**Connectivity:**    
 
 SAMW25 MCU with integrated Wi-Fi  
 
