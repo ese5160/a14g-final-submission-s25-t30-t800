@@ -71,37 +71,37 @@ Ensuring full-duplex MQTT communication between Node-RED and the MCU was challen
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
-Final project:  
+**Final project:**    
 ![Final project](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/finalproject.jpg)
 
-PCBA top view:  
+**PCBA top view:**    
 ![PCBA top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb_top.jfif)
 
-PCBA bottom view:  
+**PCBA bottom view:**    
 ![PCBA bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb_button.jfif)
 
-Thermal camera image:  
+**Thermal camera image:**    
 ![Thermal camera image](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/thermal.jfif)
 
-2D Board design top view:  
+**2D Board design top view:**    
 ![2D Board design top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb2d_front.png)
 
-2D Board design bottom view:  
+**2D Board design bottom view:**    
 ![2D Board design bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb2d_back.png)
 
-3D Board design top view:  
+**3D Board design top view:**    
 ![3D Board design top view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb3d_front.png)
 
-3D Board design bottom view:  
+**3D Board design bottom view:**    
 ![3D Board design bottom view](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/pcb3d_back.png)
 
-Node-RED dashboard:  
+**Node-RED dashboard:**    
 ![Node-RED dashboard](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/nodered_dashold.png)
 
-Node-RED backend:  
+**Node-RED backend:**    
 ![Node-RED backend](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/nodered_backend.png)
 
-System block diagram:  
+**System block diagram:**    
 ![System block diagram](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/detail%20block%20diagram.png)
 
 
