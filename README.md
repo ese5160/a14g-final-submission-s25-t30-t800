@@ -134,7 +134,7 @@ Review: We have implemented the use of WIFI for software updates!
 ![PCBA top view](images/pcb_top.jfif)
 
 **PCBA bottom view:**    
-![PCBA bottom view](pcb_button.jfif)
+![PCBA bottom view](images/pcb_button.jfif)
 
 **Thermal camera image:**    
 ![Thermal camera image](images/thermal.jfif)
