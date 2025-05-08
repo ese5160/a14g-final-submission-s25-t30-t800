@@ -46,6 +46,7 @@ Node-RED dashboard for UI
 
 Subscribe MQTT node of SCD30 Sensor data upload, FIT0563 Water Pump control, and CLI command  
 
+System block diagram:  
 ![System block diagram](https://github.com/ese5160/a14g-final-submission-s25-t30-t800/blob/main/images/detail%20block%20diagram.png)
 
 ## 3. Hardware & Software Requirements
